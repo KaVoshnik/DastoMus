@@ -5,16 +5,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'jetbrains mono', monospace;
-    color: #9768a5;
+    color: #c276da;
 }
 
 a{
     text-decoration: none;
-    color : #9768a5;
+    color : #c276da;
 }
 
 i{
-    color: #9768a5;
+    color: #c276da;
     cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ body{
 
 .header .sidebar .playing .bottom i,
 .header .sidebar .playing .bottom p{
-    color: #cd88e2;
+    color: #c276da;
 }
 
 .header main{
@@ -146,7 +146,7 @@ body{
 
 .header main headercool .navigate-links a{
     text-transform: uppercase;
-    color: #9768a5;
+    color: #c276da;
     transition: all 0.3s ease;
 }
 
@@ -156,7 +156,7 @@ body{
     gap: 5px;
     width: 60%;
     background-color: #2e0929;
-    border: 1px solid #9768a5;
+    border: 1px solid #c276da;
     padding: 10px;
     border-radius: 8px;
 }
@@ -194,7 +194,7 @@ body{
 
 .header main .trends .left .info h5{
     margin-left: 10px;
-    color: #9768a5;
+    color: #c276da;
 }
 
 .header main .trends .left .info .buttons{
@@ -209,7 +209,7 @@ body{
     border: none;
     outline: none;
     border-radius: 8px;
-    background-color: #9768a5;
+    background-color: #c276da;
     color: #fff;
     font-weight: bold;
 }
@@ -217,7 +217,7 @@ body{
 .header main .trends .left .info .buttons i{
     color: #633163;
     font-size: 20px;
-    border: 2px solid #9768a5;
+    border: 2px solid #c276da;
     padding: 10px;
     border-radius: 50%;
 }
