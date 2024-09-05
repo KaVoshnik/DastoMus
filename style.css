@@ -67,7 +67,8 @@ body{
 .header .sidebar .logotip:hover a,
 .header .sidebar .logotip:hover i,
 .header .sidebar .menu ul li:hover a,
-.header .sidebar .menu ul li:hover i{
+.header .sidebar .menu ul li:hover i,
+.header main headercool .navigation-links a:hover{
     color: #b294bb;
 }
 
@@ -103,7 +104,7 @@ body{
     align-items: center;
     gap: 10px;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .header .sidebar .playing .top img{
@@ -119,10 +120,32 @@ body{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .header .sidebar .playing .bottom i,
 .header .sidebar .playing .bottom p{
     color: #cd88e2;
+}
+
+.header main{
+    padding: 20px 40px;
+}
+
+.header main headercool{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header main headercool .navigation-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header main headercool .navigation-links a{
+    text-transform: uppercase;
+    color: #cd88e2;
+    transition: all 0.3s ease;
 }
