@@ -262,9 +262,9 @@ body{
     gap: 20px;
 }
 
-.header main .playlist .genres .items item{
+.header main .playlist .genres .items .item{
     padding: 20px 10px;
-    background-color: #c276da;
+    background-color: #633163;
     display: flex;
     align-items: center;
     justify-content: center;
