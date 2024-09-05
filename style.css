@@ -48,24 +48,24 @@ body{
     transition: all 0.6s ease;
 }
 
-.header .sidebar .logo{
+.header .sidebar .logotip{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.header .sidebar .logo > i{
+.header .sidebar .logotip > i{
     font-size: 32px;
     transition: all 0.3s ease;
 }
 
-.header .sidebar .logo a {
+.header .sidebar .logotip a {
     font-weight: bold;
     transition: all 0.3s ease;
 }
 
-.header .sidebar .logo:hover a,
-.header .sidebar .logo:hover i{
+.header .sidebar .logotip:hover a,
+.header .sidebar .logotip:hover i{
     color: #b294bb;
 }
 
