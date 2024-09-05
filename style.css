@@ -110,3 +110,19 @@ body{
     width: 35px;
     height: 35px;   
 }
+
+.header .sidebar .playing .bottom{
+    background-color: #633163;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.header .sidebar .playing .bottom i,
+.header .sidebar .playing .bottom p{
+    color: #cd88e2;
+}
