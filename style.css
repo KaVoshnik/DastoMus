@@ -65,7 +65,9 @@ body{
 }
 
 .header .sidebar .logotip:hover a,
-.header .sidebar .logotip:hover i{
+.header .sidebar .logotip:hover i,
+.header .sidebar .menu ul li:hover a,
+.header .sidebar .menu ul li:hover i{
     color: #b294bb;
 }
 
@@ -75,6 +77,36 @@ body{
     text-transform: uppercase;
 }
 
+.header .sidebar .menu ul{
+    list-style: none;
+}
+
+.header .sidebar .menu ul li{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header .sidebar .menu ul li a{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.header .sidebar .playing .top{
+    background-color: #633163;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
 .header .sidebar .playing .top img{
-    width: 20px;
+    width: 35px;
+    height: 35px;   
 }
