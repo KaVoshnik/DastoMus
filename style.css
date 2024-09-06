@@ -361,3 +361,38 @@ body{
 .header main .playlist .music-list .items .item .actions i{
     color: #9058a1;
 }
+
+.header .board-right{
+    padding: 20px 35px 20px 0;
+}
+
+.header .board-right .profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.header .board-right .profile .user{
+    display: flex;
+}
+
+.header .board-right .profile .user .left{
+    display: flex;
+    align-items: center;
+    background: #472547;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}    
+
+.header .board-right .user .left img{
+    width: 30px;
+}
+
+.header .board-right .profile .user .right{
+    background-color: #472547;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    color: #9058a1;
+}
