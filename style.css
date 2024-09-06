@@ -396,3 +396,43 @@ body{
     padding: 10px;
     color: #9058a1;
 }
+
+.header .board-right .mus-player{
+    color: #fff;
+    background-color: #472547;
+    border-radius: 5px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .board-right .mus-player .section-top{
+    padding: 20px;
+    height: 90%;
+}
+
+.header .board-right .mus-player .header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header .board-right .mus-player .song-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.header .board-right .mus-player .song-info img{
+    width: 280px;
+    height: 220px;
+}
+
+.header .board-right .mus-player .desc h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
