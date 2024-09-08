@@ -436,3 +436,20 @@ body{
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+.header .board-right .mus-player .desc h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.header .board-right .mus-player .desc p{
+    color: #9058a1;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.header .board-right .mus-player .song-info .progress{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
